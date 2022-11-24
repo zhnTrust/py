@@ -1,0 +1,58 @@
+{
+    "config": {
+        "wide_screen_mode": true
+    },
+    "header": {
+        "template": "turquoise",
+        "title": {
+            "content": "☎Android %s🈶更新咯！",
+            "tag": "plain_text"
+        }
+    },
+    "elements": [
+        {
+            "alt": {
+                "content": "",
+                "tag": "plain_text"
+            },
+            "img_key": "%s",
+            "tag": "img",
+            "compact_width": true
+        },
+        {
+            "tag": "div",
+            "fields": [
+                {
+                    "is_short": true,
+                    "text": {
+                        "tag": "lark_md",
+                        "content": "**✅详情页：**\n文件名：%s\n[点击可查看历史版本](%s)"
+                    }
+                }
+            ]
+        },
+        {
+            "tag": "div",
+            "fields": [
+                {
+                    "is_short": true,
+                    "text": {
+                        "tag": "lark_md",
+                        "content": "**✅版本号：**\n%s"
+                    }
+                },
+                {
+                    "is_short": true,
+                    "text": {
+                        "tag": "lark_md",
+                        "content": "**✅版本代码：**\n%s"
+                    }
+                }
+            ]
+        },
+        {
+            "tag": "markdown",
+            "content": "**更新日志:**\n%s"
+        }
+    ]
+}
